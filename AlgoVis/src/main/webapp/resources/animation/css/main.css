@@ -1,0 +1,135 @@
+@CHARSET "ISO-8859-1";
+
+#back-to-home {
+	color: #FFFFFF; 
+	font-size: 20px; 
+	font-weight: 300;	
+	line-height: 25px;
+	word-wrap : break-word; 
+	text-transform: uppercase; 
+	background: #26292E;
+    width : 20px; 
+    cursor: pointer; 
+    padding: 5px 5px; 
+    text-align: center;
+    vertical-align: middle; 
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-color: #2F3238;
+}
+
+#viz{
+	margin-top: -60px;
+}
+
+#viz rect{
+	fill: rgb(173, 216, 230);
+}
+
+#viz-counting-sort-secondary-canvas{
+	display: none;
+}
+
+#actions{
+	height: 64px; 
+	width: 150px; 
+	background-color: rgb(254, 197, 21); 
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#create, #sort{
+	color: rgb(255,255,255);
+}
+
+#actions-hide{
+	padding-top: 24px; 
+	padding-bottom: 24px; 
+	background-color: rgb(254, 197, 21);
+}
+
+#action-options{
+	left: 193px; 
+	bottom: 92px; 
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#create-userdefined-input{
+	float: left;	
+}
+
+#userdefined-input{
+	background-attachment: scroll; 
+	background-position: 100% 50%; 
+	background-repeat: no-repeat;	
+}
+
+#create-userdefined-go{
+	float: left; 
+	color: rgb(0, 0, 0); 
+	background-color: rgb(254, 197, 21);
+}
+
+#sort-menu{
+	left: 193px;
+}
+
+#sort-go{
+	float: left; 
+	color: rgb(0, 0, 0); 
+	background-color: rgb(254, 197, 21);
+}
+
+#left-bar , #right-bar{
+	background-color: #26292E;
+}
+
+.submit {
+    background: #3C3F45;
+    color: #23262C;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+	margin-top: 10px;
+	
+	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
+	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.submit:hover {
+    background: #DE5E60;
+    color: #FFFFFF;
+}
+
+#side{
+	height: 200px; 
+	width: 326px; 
+	float:right; 
+	margin-right: 40px;	
+}
+
+#algo-title{
+	background-color: #2F3238; 
+	margin-top: 10px; 
+	height: 20px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#educational-info{
+	background-color: #2F3238; 
+	height: 300px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	margin-top: 10px;
+	text-align:justify;	
+    text-justify:kashida;
+}
